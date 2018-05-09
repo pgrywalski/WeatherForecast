@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Show the Local Weather</title>
+    <meta name="author" content="Piotr Grywalski">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,600" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Weather App</h1>
+        <p class="location"></p>
+        <p class="change-temp">
+            <span class="temp"></span>
+            <span class="degree">&#8451;</span>
+        </p>
+        <p>
+            <img src="#" class="weather-icon" alt="Weather icon">
+        </p>
+        <p class="pressure"></p>
+        <p class="humidity"></p>
+        <p class="wind-speed"></p>
+        <p class="clouds"></p>
+        <p class="date"></p>
+        <p class="sunrise"></p>
+        <p class="sunset"></p>
+        <p class="city-list">Or choose city from the list below:</p>
+        <p>
+            <select class="select-city"></select>
+        </p>
+    </div>
+
+    <!-- Core JS Files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- Custom Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>
